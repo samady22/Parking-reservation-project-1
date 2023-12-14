@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest" time="7.337" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22\target\test-classes;C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22\target\classes;C:\Users\mlado\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\mlado\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.10\org.eclipse.persistence.core-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.2.0\org.eclipse.persistence.asm-9.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.10\org.eclipse.persistence.antlr-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.10\org.eclipse.persistence.moxy-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.10\org.eclipse.persistence.jpa-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.10\org.eclipse.persistence.jpa.jpql-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.10\org.eclipse.persistence.jpa.modelgen.processor-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\mlado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\mlado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\mlado\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\mlado\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\mlado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mlado\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="user.country.format" value="SK"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mlado\AppData\Local\Temp\surefire3744755543020120766\surefirebooter902553317447598675.jar C:\Users\mlado\AppData\Local\Temp\surefire3744755543020120766 2022-05-23T23-50-40_123-jvmRun1 surefire4406562766180411772tmp surefire_06637299482306119315tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22\target\test-classes;C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22\target\classes;C:\Users\mlado\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\mlado\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.10\org.eclipse.persistence.core-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.2.0\org.eclipse.persistence.asm-9.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.10\org.eclipse.persistence.antlr-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.10\org.eclipse.persistence.moxy-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.10\org.eclipse.persistence.jpa-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.10\org.eclipse.persistence.jpa.jpql-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.10\org.eclipse.persistence.jpa.modelgen.processor-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\mlado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\mlado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\mlado\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\mlado\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\mlado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mlado\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mlado"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\mlado\AppData\Local\Temp\surefire3744755543020120766\surefirebooter902553317447598675.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="mlado"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mlado\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mlado\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="sk"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Go\bin;C:\Program Files\Helm;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\mlado\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.5744.223\plugins\maven\lib\maven3\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.8.0;C:\Program Files (x86)\GnuPG\bin;C:\Program Files (x86)\Gpg4win\bin_64;C:\Program Files (x86)\Gpg4win\bin;C:\Users\mlado\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.6777.52\plugins\maven\lib\maven3\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files (x86)\apache-maven-3.8.5\bin;C:\Users\mlado\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mlado\AppData\Local\Programs\Python\Python39\;C:\Users\mlado\AppData\Local\Microsoft\WindowsApps;C:\Users\mlado\.deno\bin;C:\Users\mlado\go\bin;C:\Users\mlado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\mlado\AppData\Local\Microsoft\WindowsApps;C:\Users\mlado\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="BONUSE03_getAllCarParkFloorsEmbedded" classname="sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest" time="1.315"/>
+  <testcase name="BONUSE02_deleteCarParkFloorEmbeddedTest" classname="sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest" time="0.359"/>
+  <testcase name="BONUSE01_createAndGetCarParkFloorTestEmbedded" classname="sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest" time="0.406"/>
+</testsuite>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest" time="2.685" tests="5" errors="1" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22\target\test-classes;C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22\target\classes;C:\Users\mlado\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\mlado\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.10\org.eclipse.persistence.core-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.2.0\org.eclipse.persistence.asm-9.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.10\org.eclipse.persistence.antlr-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.10\org.eclipse.persistence.moxy-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.10\org.eclipse.persistence.jpa-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.10\org.eclipse.persistence.jpa.jpql-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.10\org.eclipse.persistence.jpa.modelgen.processor-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\mlado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\mlado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\mlado\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\mlado\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\mlado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mlado\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="user.country.format" value="SK"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mlado\AppData\Local\Temp\surefire3744755543020120766\surefirebooter902553317447598675.jar C:\Users\mlado\AppData\Local\Temp\surefire3744755543020120766 2022-05-23T23-50-40_123-jvmRun1 surefire4406562766180411772tmp surefire_06637299482306119315tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22\target\test-classes;C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22\target\classes;C:\Users\mlado\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\mlado\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.10\org.eclipse.persistence.core-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.2.0\org.eclipse.persistence.asm-9.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.10\org.eclipse.persistence.antlr-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.10\org.eclipse.persistence.moxy-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.10\org.eclipse.persistence.jpa-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.10\org.eclipse.persistence.jpa.jpql-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.10\org.eclipse.persistence.jpa.modelgen.processor-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\mlado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\mlado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\mlado\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\mlado\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\mlado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mlado\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mlado"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\mlado\AppData\Local\Temp\surefire3744755543020120766\surefirebooter902553317447598675.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="mlado"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mlado\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mlado\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\samady22"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="sk"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Go\bin;C:\Program Files\Helm;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\mlado\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.5744.223\plugins\maven\lib\maven3\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.8.0;C:\Program Files (x86)\GnuPG\bin;C:\Program Files (x86)\Gpg4win\bin_64;C:\Program Files (x86)\Gpg4win\bin;C:\Users\mlado\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.6777.52\plugins\maven\lib\maven3\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files (x86)\apache-maven-3.8.5\bin;C:\Users\mlado\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mlado\AppData\Local\Programs\Python\Python39\;C:\Users\mlado\AppData\Local\Microsoft\WindowsApps;C:\Users\mlado\.deno\bin;C:\Users\mlado\go\bin;C:\Users\mlado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\mlado\AppData\Local\Microsoft\WindowsApps;C:\Users\mlado\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="BONUSU03_updateCarParkTest" classname="sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest" time="0.431"/>
+  <testcase name="BONUSU01_shouldUpdateCarBrandAndModel" classname="sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest" time="0.535">
+    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.BONUSU01_shouldUpdateCarBrandAndModel(EntityUpdateTest.java:49)
+]]></failure>
+    <system-out><![CDATA[[EL Fine]: sql: 2022-05-23 23:50:51.055--ServerSession(1160649162)--Connection(279566689)--SELECT USERID, EMAIL, FIRSTNAME, LASTNAME FROM USER
+[EL Fine]: sql: 2022-05-23 23:50:51.066--ClientSession(1088239991)--Connection(279566689)--INSERT INTO USER (USERID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [5, jozko.mrkvicka@example.com, Jožko, Mrkvička]
+[EL Fine]: sql: 2022-05-23 23:50:51.089--ServerSession(1160649162)--Connection(279566689)--SELECT CARID, BRAND, COLOR, MODEL, VEHICLEREGISTRATIONPLATE, USERID FROM CAR
+[EL Fine]: sql: 2022-05-23 23:50:51.1--ClientSession(1837601499)--Connection(279566689)--INSERT INTO CAR (CARID, BRAND, COLOR, MODEL, VEHICLEREGISTRATIONPLATE, USERID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [6, Audi, black, A7, BL798XX, 5]
+[EL Fine]: sql: 2022-05-23 23:50:51.116--ServerSession(1160649162)--Connection(279566689)--SELECT CARID, BRAND, COLOR, MODEL, VEHICLEREGISTRATIONPLATE, USERID FROM CAR
+]]></system-out>
+  </testcase>
+  <testcase name="BONUSU04_updateParkingSpotWithoutType" classname="sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest" time="0.437"/>
+  <testcase name="BONUSU02_shouldCreateAndUpdateUserByChangingEmail" classname="sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest" time="0.453"/>
+  <testcase name="BONUSU05_shouldCreateAndUpdateReservation" classname="sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest" time="0.597">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.lambda$BONUSU05_shouldCreateAndUpdateReservation$1(EntityUpdateTest.java:252)
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.BONUSU05_shouldCreateAndUpdateReservation(EntityUpdateTest.java:250)
+</error>
+    <system-out><![CDATA[[EL Fine]: sql: 2022-05-23 23:50:52.38--ServerSession(1160649162)--Connection(279566689)--SELECT CARPARKID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK
+[EL Fine]: sql: 2022-05-23 23:50:52.388--ClientSession(1410367298)--Connection(279566689)--INSERT INTO CAR_PARK (CARPARKID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [10, testtest, test8, 12]
+[EL Fine]: sql: 2022-05-23 23:50:52.405--ServerSession(1160649162)--Connection(279566689)--SELECT FLOORIDENTIFIER, CARPARKID FROM CAR_PARK_FLOOR
+[EL Fine]: sql: 2022-05-23 23:50:52.411--ClientSession(1428494531)--Connection(279566689)--INSERT INTO CAR_PARK_FLOOR (FLOORIDENTIFIER, CARPARKID) VALUES (?, ?)
+	bind => [Floor3-1, 10]
+[EL Fine]: sql: 2022-05-23 23:50:52.426--ServerSession(1160649162)--Connection(279566689)--SELECT FLOORIDENTIFIER, CARPARKID FROM CAR_PARK_FLOOR WHERE ((CARPARKID = ?) AND (FLOORIDENTIFIER = ?))
+	bind => [10, Floor3-1]
+[EL Fine]: sql: 2022-05-23 23:50:52.438--ServerSession(1160649162)--Connection(279566689)--SELECT t1.PARKINGSPOTID, t1.SPOTIDENTIFIER, t1.FLOORIDENTIFIER, t1.CARPARID FROM CAR_PARK_FLOOR t0, PARKING_SPOT t1 WHERE ((t0.CARPARKID = ?) AND ((t0.CARPARKID = t1.CARPARID) AND (t0.FLOORIDENTIFIER = t1.FLOORIDENTIFIER)))
+	bind => [10]
+[EL Fine]: sql: 2022-05-23 23:50:52.453--ClientSession(82825098)--Connection(279566689)--INSERT INTO PARKING_SPOT (PARKINGSPOTID, SPOTIDENTIFIER, FLOORIDENTIFIER, CARPARID) VALUES (?, ?, ?, ?)
+	bind => [11, 1.01, Floor3-1, 10]
+[EL Fine]: sql: 2022-05-23 23:50:52.47--ServerSession(1160649162)--Connection(279566689)--SELECT USERID, EMAIL, FIRSTNAME, LASTNAME FROM USER
+[EL Fine]: sql: 2022-05-23 23:50:52.487--ClientSession(1313799195)--Connection(279566689)--INSERT INTO USER (USERID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [12, jozko.mrkvicka@example.com, Jožko, Mrkvička]
+[EL Fine]: sql: 2022-05-23 23:50:52.511--ServerSession(1160649162)--Connection(279566689)--SELECT CARID, BRAND, COLOR, MODEL, VEHICLEREGISTRATIONPLATE, USERID FROM CAR
+[EL Fine]: sql: 2022-05-23 23:50:52.523--ClientSession(793269462)--Connection(279566689)--INSERT INTO CAR (CARID, BRAND, COLOR, MODEL, VEHICLEREGISTRATIONPLATE, USERID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [13, Audi, black, A7, BL798XX, 12]
+[EL Fine]: sql: 2022-05-23 23:50:52.562--ClientSession(1052842393)--Connection(279566689)--INSERT INTO RESERVATION (RESERVATIONID, ENDDATE, PRICE, STARTDATE, CARID, PARKINGSPOTID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [14, null, null, 2022-05-23 23:50:52.552, 13, 11]
+[EL Fine]: sql: 2022-05-23 23:50:52.624--ServerSession(1160649162)--Connection(279566689)--SELECT RESERVATIONID, ENDDATE, PRICE, STARTDATE, CARID, PARKINGSPOTID FROM RESERVATION
+]]></system-out>
+  </testcase>
+</testsuite>

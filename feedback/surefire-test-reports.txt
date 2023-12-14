@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.809 s - in sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.CarParkFloorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 1.448 s - in sk.stuba.fei.uim.vsa.pr1c.tests.CarParkFloorTest
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.CarParkTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.524 s - in sk.stuba.fei.uim.vsa.pr1c.tests.CarParkTest
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.CarTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.187 s - in sk.stuba.fei.uim.vsa.pr1c.tests.CarTest
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotAndReservationWithoutTypeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.691 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotAndReservationWithoutTypeTest
+SPOT_RES_01_getAvailableSpotsTest  Time elapsed: 0.505 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotAndReservationWithoutTypeTest.SPOT_RES_01_getAvailableSpotsTest(ParkingSpotAndReservationWithoutTypeTest.java:69)
+
+SPOT_RES_02_getOccupiedParkingSpotsWithoutTypeTest  Time elapsed: 1.041 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotAndReservationWithoutTypeTest.SPOT_RES_02_getOccupiedParkingSpotsWithoutTypeTest(ParkingSpotAndReservationWithoutTypeTest.java:398)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.361 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest
+SPOT03_getAllParkingSpotsForCarParkWithoutType  Time elapsed: 0.85 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest.SPOT03_getAllParkingSpotsForCarParkWithoutType(ParkingSpotTest.java:197)
+
+SPOT01_getAllParkingSlotsWithoutType  Time elapsed: 0.608 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest.SPOT01_getAllParkingSlotsWithoutType(ParkingSpotTest.java:83)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.187 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest
+RES03_shouldCreateAndGetReservations  Time elapsed: 0.491 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <60> but was: <null>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest.RES03_shouldCreateAndGetReservations(ReservationTest.java:192)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.UserTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.221 s - in sk.stuba.fei.uim.vsa.pr1c.tests.UserTest
+-------------------------------------------------------------------------------
+ 

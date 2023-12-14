@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.337 s - in sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 2.685 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest
+BONUSU01_shouldUpdateCarBrandAndModel  Time elapsed: 0.535 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.BONUSU01_shouldUpdateCarBrandAndModel(EntityUpdateTest.java:49)
+
+BONUSU05_shouldCreateAndUpdateReservation  Time elapsed: 0.597 s  <<< ERROR!
+java.lang.NullPointerException
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.lambda$BONUSU05_shouldCreateAndUpdateReservation$1(EntityUpdateTest.java:252)
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.BONUSU05_shouldCreateAndUpdateReservation(EntityUpdateTest.java:250)
+
+-------------------------------------------------------------------------------
+ 
